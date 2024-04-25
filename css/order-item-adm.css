@@ -1,0 +1,143 @@
+.block-order {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.block-order h2 {
+    margin-top: 0;
+}
+
+.product-block {
+    width: 64%;
+    padding-right: 40px;
+}
+
+.info-block {
+    width: 36%;
+}
+
+.table-prod {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    font-weight: 500;
+    background-color: #eaeaea;
+}
+
+thead td {
+    padding: 10px 5px;
+}
+
+td {
+    border: 1px solid #cfcfcf;
+    text-align: center;
+    padding: 5px;
+}
+
+.name-prod {
+    width: 50%;
+}
+
+tbody .name-prod {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.price-prod {
+    width: 20%;
+}
+
+.value-prod {
+    width: 10%;
+}
+
+.amount-prod {
+    width: 20%;
+}
+
+.bottom-order {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sale-block {
+    width: 70%;
+    text-align: right;
+    font-size: 18px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.amount-price {
+    width: 30%;
+    text-align: right;
+    font-size: 18px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.info-line {
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.name-info {
+    width: 130px;
+    font-size: 18px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.value-info {
+    font-size: 18px;
+}
+
+.value-info select {
+    font-size: 15px;
+    width: 140px;
+    margin-right: 20px;
+}
+
+.value-info input {
+    width: 120px;
+    text-align: center;
+    border: none;
+    background: #860030;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-upd-block {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upd-button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    background: #860030;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.content h1 {
+    text-align: center;
+}
+
+.table-coupon {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+thead {
+    font-weight: 500;
+    background-color: #860030;
+    color: #ffffff;
+}
+
+thead td {
+    border: 1px solid #860030;
+    padding: 10px 5px;
+}
+
+td {
+    border: 1px solid #cfcfcf;
+    text-align: center;
+    padding: 5px;
+}
+
+td.number {
+    width: 5%;
+}
+
+td.format {
+    width: 10%;
+}
+
+td.amount {
+    width: 15%;
+}
+
+td.phone {
+    width: 20%;
+}
+
+td.mail {
+    width: 20%;
+}
+
+td.status {
+    width: 15%;
+}
+
+td.info {
+    width: 15%;
+}
+
+td.info a {
+    color: #860030;
+}

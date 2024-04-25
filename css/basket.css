@@ -1,0 +1,412 @@
+.coupon-block {
+    width: 100%;
+    padding: 30px 23px;
+    margin-bottom: 20px;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mailing-form__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 455px;
+    margin: 16px 0;
+}
+
+.mailing-form__field {
+    flex-grow: 2;
+    min-width: 176px;
+    height: 40px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    font-family: "MuseoSansCyrl";
+    font-size: 14px;
+    line-height: 30px;
+    color: #8C8C8C;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 50px;
+    flex-grow: 2;
+    font-size: 10px;
+    color: #000000;
+}
+
+.mailing-form__button {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "MuseoSansCyrl";
+    color: #ffffff;
+    border: 1px solid #F4B3BD;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-color: #F4B3BD;
+    box-shadow: none;
+    transition-property: background-color, border, box-shadow;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 157px;
+    height: 50px;
+    margin: 0;
+    background: #FF7793;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.mailing-form__button:hover {
+    border: 1px solid #E28E9B;
+    transition-property: background-color, border, box-shadow;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.basket-section__btn {
+    border: 1px solid #E5E5E5;
+    background: transparent;
+    color: #6D6D6D;
+    box-shadow: none;
+    transition-property: background, box-shadow;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    font-family: "MuseoSansCyrl";
+    font-weight: 900;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.basket-block {
+    width: 100%;
+}
+
+.title-basket {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    height: 60px;
+    margin-bottom: 20px;
+    order: 2;
+    background: #F7F7F7;
+    border-radius: 4px;
+    position: relative;
+}
+
+.title-basket-text {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.basket-section__btn.btn.btn--reset {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    order: 1;
+    width: 160px;
+    height: 40px;
+    padding-left: 37px;
+    font-family: "MuseoSansCyrl";
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.basket-section__btn.btn--reset::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/main/ic-basket-clean.svg) no-repeat center;
+}
+
+.basket-table-block {
+    width: 100%;
+}
+
+.basket-table-block table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.basket-table-block thead tr td {
+    height: 42px;
+    padding: 20px 0 0;
+    font-family: "MuseoSansCyrl";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    border-top: 1px solid #A3A3A3;
+    border-bottom: 1px solid #A3A3A3;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.basket-table-block table tr td.product {
+    width: 680px;
+    text-align: left;
+}
+
+td.price {
+    width: 185px;
+}
+
+td.value {
+    width: 185px;
+}
+
+td.amount {
+    width: 185px;
+}
+
+td.del {
+    width: 35px;
+}
+
+tbody tr td {
+    height: 61px;
+    padding-top: 8px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+tbody td.product {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-product-basket {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.img-product-basket img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.name-product-basket {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.name-product-basket a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.name-product-basket a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.name-product-basket a:hover {
+    color: #FF003D;
+}
+
+tbody td.price {
+    text-align: right;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+
+
+.value-prod-block {
+    width: 90px;
+    margin: 0 auto;
+    position: relative;
+    color: #000000;
+}
+
+.value-prod-block span {
+    position: absolute;
+    top: 5px;
+    display: block;
+    width: 21px;
+    height: 21px;
+    background: white;
+    border-radius: 50%;
+    font-family: "MuseoSansCyrl";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #272727;
+    text-align: center;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.minus-value {
+    left: 5px;
+}
+
+.plus-value {
+    right: 5px;
+}
+
+#value-prod-input {
+    width: 90px;
+    height: 31px;
+    background: #F1F1F1;
+    border: none;
+    border-radius: 100px;
+    font-family: "MuseoSansCyrl";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    display: none;
+}
+
+tbody td.amount {
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.del-product-basket::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/main/ic-basket-popup-delete.svg);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.basket-block+.title-catalog_h1 {
+    padding: 30px 0 30px 15px;
+}
+
+.order-main-block {
+    width: 100%;
+    padding: 20px 15px 20px 95px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+.title-order {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.line-order-input {
+    margin-bottom: 20px;
+}
+
+.name-input-order {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.input-order {
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+    font-family: "MuseoSansCyrl";
+    padding: 10px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+}
+
+.add_order-button {
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    font-family: "MuseoSansCyrl";
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #FF7793;
+    border: 1px solid #FF7793;
+    color: #FFFFFF;
+    box-shadow: none;
+    transition-property: border, box-shadow;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    width: 170px;
+    line-height: 48px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.add_order-button:hover {
+    background: #FF003D;
+    border: 1px solid #FF003D;
+    transition-property: border, box-shadow;
+    transition-delay: 0s;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}

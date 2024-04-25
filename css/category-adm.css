@@ -1,0 +1,198 @@
+.container h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-category-adm {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.btn-category-add {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 250px;
+    margin-top: 10px;
+    border: none;
+    background: #860030;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+    font-family: 'MuseoSansCyrl';
+}
+
+.category-list-adm {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 20%;
+}
+
+h3.main-category-title {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h3.main-category-title a {
+    margin-left: 5px;
+    color: #0065DC;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.child-category-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.child-category-title a {
+    margin-left: 5px;
+    color: #0065DC;
+    font-size: 14px;
+}
+
+#addCategoryForm {
+    width: 100%;
+}
+
+
+.upd-block {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.upd-block h2 {
+    margin: 30px 0 15px 0;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.block-img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #860030;
+}
+
+.block-img img {
+    max-width: 190px;
+    max-height: 190px;
+}
+
+.btn-img-block {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.btn-img-block input[type=file] {
+    width: 300px;
+}
+
+.btn-img-block input[type=file]::file-selector-button,
+.btn-img-block input[type=button] {
+    margin-right: 20px;
+    border: none;
+    background: #860030;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.btn-img-block input[type=button] {
+    width: 150px;
+    margin-right: 0;
+}
+
+.btn-img-block input[type=file]::file-selector-button:hover,
+.btn-img-block input[type=button]:hover {
+    background: #4d4d4d;
+}
+
+.name-info {
+    margin-bottom: 10px;
+}
+
+.upd-block>.name-input[type=text] {
+    margin-bottom: 10px;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    padding: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #cfcfcf;
+    font-family: 'MuseoSansCyrl';
+}
+
+#addCategoryForm>.name-input[type=text] {
+    margin-bottom: 10px;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    padding: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #cfcfcf;
+}
+
+.desc-textarea {
+    width: 800px;
+    min-width: 800px;
+    max-width: 800px;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #cfcfcf;
+}
+
+.button-upd-block {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-upd-block .upd-button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    background: #860030;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.upd-block select {
+    width: 250px;
+    height: 30px;
+    padding: 4px;
+}
